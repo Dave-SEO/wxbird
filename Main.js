@@ -7,6 +7,7 @@ import {Director} from  './js/director.js';
 import {BackGround} from './js/runtime/background.js';
 import {DataStore} from './js/base/dataStore.js';
 import {Land} from './js/runtime/land.js';
+import {Pencli} from './js/runtime/Pencli.js';
 export class Main {
     constructor () {
         this.canvas = document.getElementById('game_canvas');
